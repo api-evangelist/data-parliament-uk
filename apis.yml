@@ -1,0 +1,32 @@
+aid: data-parliament-uk
+name: Data.parliament.uk
+description: "Contains live datasets including information about petitions, bills, MP votes, attendance and more"
+url: https://explore.data.parliament.uk/?learnmore=Members
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Government"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Government
+  - Public APIs
+apis:
+  - name: Data.parliament.uk
+    description: "Contains live datasets including information about petitions, bills, MP votes, attendance and more"
+    humanURL: https://explore.data.parliament.uk/?learnmore=Members
+    baseURL: https://explore.data.parliament.uk/?learnmore=Members
+    tags:
+      - Government
+    properties:
+      - type: Documentation
+        url: https://explore.data.parliament.uk/?learnmore=Members
+common:
+  - type: Website
+    url: https://explore.data.parliament.uk/?learnmore=Members
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
