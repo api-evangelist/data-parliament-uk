@@ -23,6 +23,10 @@ apis:
       - type: Documentation
         url: https://explore.data.parliament.uk/?learnmore=Members
 common:
+  - type: VulnerabilityDisclosure
+    url: security/data-parliament-uk-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/data-parliament-uk-domain-security.yml
   - type: Website
     url: https://explore.data.parliament.uk/?learnmore=Members
   - type: PublicAPIsListing
