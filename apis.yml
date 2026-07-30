@@ -1,4 +1,16 @@
 aid: data-parliament-uk
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-parliament-uk.png
 name: Data.parliament.uk
 description: "Contains live datasets including information about petitions, bills, MP votes, attendance and more"
 url: https://explore.data.parliament.uk/?learnmore=Members
