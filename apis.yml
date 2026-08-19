@@ -14,7 +14,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/data-parli
 name: Data.parliament.uk
 description: "Contains live datasets including information about petitions, bills, MP votes, attendance and more"
 url: https://explore.data.parliament.uk/?learnmore=Members
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-05-28'
 modified: '2026-05-28'
 x-source: public-apis/public-apis
