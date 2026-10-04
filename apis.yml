@@ -39,7 +39,6 @@ apis:
   - name: Data.parliament.uk
     description: "Contains live datasets including information about petitions, bills, MP votes, attendance and more"
     humanURL: https://explore.data.parliament.uk/?learnmore=Members
-    baseURL: https://explore.data.parliament.uk/?learnmore=Members
     tags:
       - Government
     properties:
