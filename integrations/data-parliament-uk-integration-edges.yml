@@ -1,0 +1,130 @@
+edges:
+- partner_name: APIs.guru OpenAPI Directory
+  partner: apis-guru
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: third-party
+  evidence: https://apis.guru/
+  category: API definition directory listing (OpenAPI)
+  contract_reference:
+    register: APIs.guru OpenAPI Directory
+    spec_file: null
+    standard: APIs.guru OpenAPI Directory
+    role: listed-in-directory
+    directory_provider: parliament.uk
+    matched_domain: parliament.uk
+    matched_by: domain
+    apis_listed: 11
+    version_count: 11
+    first_added: '2020-04-21'
+    last_updated: '2023-03-06'
+    origin_publisher_hosted: true
+    origin_hosts:
+    - api.parliament.uk
+    - bills-api.parliament.uk
+    - commonsvotes-api.parliament.uk
+    - erskinemay-api.parliament.uk
+    - lordsvotes-api.parliament.uk
+    - members-api.parliament.uk
+    - now-api.parliament.uk
+    - oralquestionsandmotions-api.parliament.uk
+    - statutoryinstruments-api.parliament.uk
+    - treaties-api.parliament.uk
+    - writtenquestions-api.parliament.uk
+    categories:
+    - open_data
+    own_openapi_files: 0
+    listings:
+    - key: parliament.uk:bills
+      title: Bills API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/bills/v1/openapi.json
+      origin_url: https://bills-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:commonsvotes
+      title: Commons Votes API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/commonsvotes/v1/swagger.json
+      origin_url: https://commonsvotes-api.parliament.uk/swagger/docs/v1
+      openapi_version: '2.0'
+    - key: parliament.uk:erskine-may
+      title: Erskine May API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/erskine-may/v1/openapi.json
+      origin_url: https://erskinemay-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:lordsvotes
+      title: Lords Votes API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/lordsvotes/v1/openapi.json
+      origin_url: https://lordsvotes-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:members
+      title: Members API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/members/v1/openapi.json
+      origin_url: https://members-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:now
+      title: Annunciator content API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/now/v1/openapi.json
+      origin_url: https://now-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:oralquestions
+      title: House of Commons Oral and Written Questions API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/oralquestions/v1/openapi.json
+      origin_url: https://oralquestionsandmotions-api.parliament.uk/swagger/docs/v1
+      openapi_version: 3.0.0
+    - key: parliament.uk:search
+      title: UK Parliament Search Service
+      preferred: Live
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/search/Live/openapi.json
+      origin_url: https://api.parliament.uk/search/openapi.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:statutoryinstruments
+      title: Statutory Instruments API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/statutoryinstruments/v1/openapi.json
+      origin_url: https://statutoryinstruments-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:treaties
+      title: Treaties API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/treaties/v1/openapi.json
+      origin_url: https://treaties-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    - key: parliament.uk:writtenquestions
+      title: Written Questions Service API
+      preferred: v1
+      versions: 1
+      swagger_url: https://api.apis.guru/v2/specs/parliament.uk/writtenquestions/v1/openapi.json
+      origin_url: https://writtenquestions-api.parliament.uk/swagger/v1/swagger.json
+      openapi_version: 3.0.1
+    signal_note: 'participation only: a community directory listing (APIs.guru collects definitions; the provider
+      did not file them). Signals: version_count, apis_listed, origin_publisher_hosted.'
+    detected_by: sweep-openapi-directory-apis-guru.py
+    detected: '2026-10-22'
+  detected_by: sweep-openapi-directory-apis-guru.py
+  first_seen: '2026-10-22'
+generated: '2026-10-22'
+method: searched
+source:
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
+checked:
+- https://api.apis.guru/v2/list.json
+- https://api.apis.guru/v2/providers.json
